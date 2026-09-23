@@ -1,63 +1,22 @@
-/* 
-#c5ebd6;
-#83elad;
-#3ddc84;
-#2fa866;
-#1a5c37;
-#06ed1e;
-*/
+@font-face {
+    font-family: 'Android';
+    src: url(/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
 
 :root {
     --cor1: #c5ebd6;
     --cor2: #3ddc84;
     --cor3: #06ed1e;
-    --c0r4: #1a5c37; 
+    --cor4: #1a5c37;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-android: 'Android', 'Palatino Linotype';
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     border: none;
     text-decoration: none;
-}
-
-.header {
-    padding-top: 20px;
-    background-color: var(--c0r4);
-    text-align: center;
-    color: white;
-}
-
-.header .paragrafo-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.nav {
-    background-color: var(--cor3);
-}
-
-.nav a {
-    color: white;
-}
-
-main {
-    background-color: var(--cor1);
-    padding: 30px;
-    align-items: center;
-}
-
-.telapadrao {
-    padding: 30px;
-    background-color: white;
-    max-width: 60rem;
-    align-items: center;
-}
-
-.telaverde {
-    padding: 30px;
-    background-color: var(--c0r4);
-    max-width: 60rem;
-    align-items: center;
 }

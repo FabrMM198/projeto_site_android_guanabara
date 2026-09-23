@@ -1,0 +1,23 @@
+.header {
+    padding-top: 20px;
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;
+}
+
+.header .titulo-header {
+    font-family: var(--fonte-android);
+}
+
+.header .paragrafo-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav {
+    background-color: var(--cor3);
+}
+
+.nav a {
+    color: white;
+}

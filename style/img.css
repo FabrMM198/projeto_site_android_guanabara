@@ -12,6 +12,6 @@
 
 .img-main .pequena {
     margin: auto;
-    width: 50%;
+    max-width: 350px;
     display: block;
 }

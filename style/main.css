@@ -1,5 +1,6 @@
 .main {
     background-color: var(--cor1);
+    margin: auto;
     padding: 30px;
     align-items: center;
     text-align: justify;
@@ -11,15 +12,31 @@
 }
 
 .telapadrao {
-    padding: 30px;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 50px;
+    margin: auto;
     background-color: white;
-    max-width: 60rem;
     align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }
 
 .telaverde {
-    padding: 30px;
+    padding: 50px;
+    margin: auto;
     background-color: var(--cor4);
-    max-width: 60rem;
+    min-width: 300px;
+    max-width: 1000px;
     align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.telaverde2 {
+    padding: 50px;
+    margin: auto;
+    background-color: var(--cor3);
+    min-width: 300px;
+    max-width: 1000px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }

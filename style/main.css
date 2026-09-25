@@ -3,12 +3,44 @@
     margin: auto;
     padding: 30px;
     align-items: center;
-    text-align: justify;
 }
 
 .main .titulo-main {
     text-align: center;
     font-family: var(--fonte-android);
+}
+
+.main .subtitulo-main {
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    text-indent: 8px;
+}
+
+.main .paragrafo-main {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.main .strong {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+.main .links {
+    color: var(--cor4);
+    background-color: var(--cor2);
+    padding: 2px 6px;
+    font-weight: bold;
+}
+
+.main .links:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+    background-color: var(--cor4);
+    border-radius: 5px;
 }
 
 .telapadrao {

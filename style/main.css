@@ -25,7 +25,7 @@
 }
 
 .main .strong {
-    color: var(--cor3);
+    color: var(--cor4);
     font-weight: bold;
 }
 
@@ -56,7 +56,7 @@
 .telaverde {
     padding: 50px;
     margin: auto;
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     min-width: 300px;
     max-width: 1000px;
     align-items: center;
@@ -64,13 +64,27 @@
 }
 
 .telaverde2 {
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     margin: auto;
     background-color: var(--cor3);
     min-width: 300px;
     max-width: 1000px;
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.telaverde2 .subtitulo-main-2 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: 0px -50px 0px -50px ;
+    text-indent: 50px;
+}
+
+.telaverde2 .lista {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00A0\00A0";
 }
 
 .derivado {

@@ -20,3 +20,7 @@
     border: none;
     text-decoration: none;
 }
+
+.links::after {
+    content: "\00A0\1F517";
+}

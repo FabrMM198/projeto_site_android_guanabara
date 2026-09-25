@@ -26,12 +26,12 @@
     padding: 10px;
 }
 
-.nav a {
+.nav .menu-nav {
     color: white;
     padding: 10px;
 }
 
-.nav a:hover {
+.nav .menu-nav:hover {
     background-color: var(--cor4);
     border-radius: 5px;
     color: var(--cor2);
